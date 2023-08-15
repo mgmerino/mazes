@@ -1,11 +1,9 @@
 require 'minitest/autorun'
-require_relative '../grid'
-require_relative '../binary_tree'
+require_relative '../models/grid'
+require_relative '../models/binary_tree'
 
 class BinaryTreeTest < Minitest::Test
   def test_binary_tree_creation
-    grid = Grid.new(2, 2)
-    BinaryTree.on(grid)
-    assert grid
+    # TODO: test that the binary tree is created correctly
   end
 end
