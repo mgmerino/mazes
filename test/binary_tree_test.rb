@@ -1,5 +1,4 @@
 require 'minitest/autorun'
-require 'debug'
 require_relative '../models/grid'
 require_relative '../models/binary_tree'
 
