@@ -12,3 +12,4 @@ puts grid
 
 img = grid.to_png
 img.save "output/maze_dijkstra2.png"
+
